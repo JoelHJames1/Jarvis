@@ -1,3 +1,7 @@
+# Joel Hernandez
+# AI Chatbot using LLAMA Model
+# 6/11/2023
+
 import glob
 import os
 from flask import Flask, jsonify, request
