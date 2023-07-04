@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Speech Synthesis Test</title>
+</head>
+<body>
+  <button onclick="speak('Hello, this is a test')">Speak</button>
+  <script>
+    function speak(text) {
+      var utterance = new SpeechSynthesisUtterance(text);
+      speechSynthesis.speak(utterance);
+    }
+  </script>
+</body>
+</html>
